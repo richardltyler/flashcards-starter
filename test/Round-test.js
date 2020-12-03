@@ -3,7 +3,6 @@ const expect = chai.expect;
 
 const Card = require('../src/Card');
 const Deck = require('../src/Deck');
-const Turn = require('../src/Turn');
 const Round = require('../src/Round');
 
 describe('Round', function() {
@@ -17,12 +16,10 @@ describe('Round', function() {
     });
 
     it('should be a function', function() {
-      const round = new Round();
       expect(Round).to.be.a('function');
     });
 
     it('should be an instance of the Round class', function() {
-      const round = new Round();
       expect(round).to.be.an.instanceOf(Round);
     });
 
