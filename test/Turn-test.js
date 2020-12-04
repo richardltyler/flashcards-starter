@@ -2,6 +2,7 @@ const chai = require('chai');
 const expect = chai.expect;
 
 const Card = require('../src/Card');
+/* eslint-disable max-len */
 const Turn = require('../src/Turn');
 
 describe('Turn', function() {
