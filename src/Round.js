@@ -26,6 +26,7 @@ class Round {
   }
   endRound() {
     const endMessage = '** Round Over! ** You answered ' + this.calculatePercentCorrect() + '% of the questions correctly!';
+    // eslint-disable-next-line no-console
     console.log(endMessage);
     return endMessage;
   }
